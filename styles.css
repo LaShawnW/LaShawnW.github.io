@@ -1,5 +1,3 @@
-/*Base styling*/
-
 
 *{
   margin: 0;
@@ -19,11 +17,7 @@ h1,h2,h3, p.bold {
   --secondary-color: #00004d;
 }
 
-.shadow {
-  -webkit-box-shadow: 7px 14px 24px -9px #ffffff;
-  -moz-box-shadow: 7px 14px 24px -9px #ffffff;
-  box-shadow: 7px 14px 24px -9px#ffffff;
-}
+
 
 body {
   margin: 0 10%;
@@ -70,7 +64,7 @@ header .content{
   padding: 0 20px;
 }
 
-/* Aside Styling */
+
 aside {
   grid-area: aside;
   padding: 10px 5px 10px 5px;
@@ -120,7 +114,7 @@ aside hr {
   margin: 20px 5px;
 }
 
-/* Main Styling */
+
 main {
   grid-area: main;
   display: flex;
@@ -130,6 +124,7 @@ main {
 
 main h2 {
   margin: 20px 0;
+  text-decoration:underline;
 }
 
 
